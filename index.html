@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <!-- Bootstrap 5 CSS CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAVBAR (Bootstrap Responsive) -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">MyPortfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#certifications">Certifications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#resume">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HOME SECTION -->
+<section id="home" class="home-section">
+  <div class="home-container">
+    <div class="home-image">
+      <img src="img.jpg" alt="Profile Picture">
+    </div>
+    <div class="home-content">
+      <small>ABOUT ME</small>
+      <h1>I AM <span class="typing"></span></h1>
+      <p>Passionate Learner  Future Frontend & MERN Developer!</p>
+      <div class="home-buttons">
+        <a href="#skills" class="btn">Skills</a>
+        <a href="#certifications" class="btn">Certifications</a>
+        <a href="#projects" class="btn">Projects</a>
+        <a href="#resume" class="btn">Resume</a>
+        <a href="#contact" class="btn">Contact</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- SKILLS SECTION -->
+<section id="skills" class="section skills-section">
+  <h2>Skills</h2>
+
+  <div class="skills-grid">
+    <div class="skill-category">
+      <h3><i class="fas fa-code"></i> Frontend Technologies</h3>
+      <ul>
+        <li><i class="fab fa-html5"></i> HTML</li>
+        <li><i class="fab fa-css3-alt"></i> CSS</li>
+        <li><i class="fab fa-js-square"></i> JavaScript</li>
+        <li><i class="fab fa-react"></i> React</li>
+        <li><i class="fab fa-angular"></i> Angular</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3><i class="fas fa-server"></i> Backend Technologies</h3>
+      <ul>
+        <li><i class="fab fa-node-js"></i> Node.js</li>
+        <li><i class="fas fa-network-wired"></i> Express.js</li>
+        <li><i class="fas fa-database"></i> MongoDB</li>
+        <li><i class="fas fa-database"></i> MySQL</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3><i class="fas fa-mobile-alt"></i> Mobile App Development</h3>
+      <ul>
+        <li><i class="fab fa-android"></i> Android Development (Kotlin)</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3><i class="fas fa-laptop-code"></i> Technical Skills</h3>
+      <ul>
+        <li><i class="fab fa-python"></i> Python</li>
+        <li><i class="fas fa-c"></i> C</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<!-- CERTIFICATIONS SECTION -->
+<section id="certifications" class="section certifications-section">
+  <h2>Certifications</h2>
+
+  <div class="certifications-grid">
+    <div class="cert-card">
+      <img src="images/img1.png" alt="Certification 1">
+      <h3><i class="fas fa-award"></i> Frontend Web Development</h3>
+      <p>Completed a frontened development course including HTML5, CSS, and JS.</p>
+      <div class="cert-buttons">
+        <a href="certificates/cert1.pdf" class="cert-btn">View Certificate</a>
+        <a href="certificates/cert1.pdf" class="cert-btn">Download</a>
+        
+      </div>
+    </div>
+
+    <div class="cert-card">
+      <img src="images/img2.png" alt="Certification 2">
+      <h3><i class="fas fa-award"></i> Android App Development</h3>
+      <p>Completed the workshop and built an Android app using Kotlin.</p>
+      <div class="cert-buttons">
+        <a href="certificates/cert2.pdf" class="cert-btn">View Certificate</a>
+        <a href="certificates/cert2.pdf" class="cert-btn">Download</a> 
+      </div>
+    </div>
+
+    <div class="cert-card">
+      <img src="images/img3.png" alt="Certification 3">
+      <h3><i class="fas fa-award"></i> Python Programming</h3>
+      <p>Certified in basics of Python programming.</p>
+      <div class="cert-buttons">
+        <a href="certificates/cert3.pdf" class="cert-btn">View Certificate</a>
+        <a href="certificates/cert3.pdf" class="cert-btn">Download</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- PROJECTS SECTION -->
+
+<section id="projects" class="projects-section">
+  <h2 class="section-title">Projects</h2>
+  
+  <div class="projects-container">
+    
+    <div class="project-card">
+      <img src="projects/proj1.png" alt="Project 1 Screenshot">
+      <h3>COMMUNITY PULSE PROJECT - REACT</h3>
+      <p><strong>Goal:</strong>Centralize community issue reporting and feedback to improve public service efficiency.<br>
+         <strong>Technologies:</strong> React, HTML, CSS, JavaScript, MySQL<br>
+         <strong>Challenges:</strong> Designing an intuitive interface and handling real-time updates.<br>
+         <strong>Solution:</strong> Built a responsive platform with and seamless feedback flow.
+      </p>
+      <a href="https://github.com/yourgithub/portfolio" target="_blank" class="btn">View Code</a>
+    </div>
+
+    <div class="project-card">
+      <img src="projects/proj2.png" alt="Project 2 Screenshot">
+      <h3>Pesticides of Agriculture - Angular</h3>
+      <p><strong>Goal:</strong> Suggest suitable pesticides based on crop and soil data for farmers.<br>
+         <strong>Technologies:</strong> Angular, TypeScript, HTML, CSS<br>
+         <strong>Challenges:</strong> Matching crop data accurately with pesticide information.<br>
+         <strong>Solution:</strong> Built an app to analyze crop data and recommend pesticide quantities with responsive forms and real-time insights.
+
+
+      </p>
+      <a href="https://github.com/yourgithub/task-manager" target="_blank" class="btn">View Code</a>
+    </div>
+
+    <div class="project-card">
+      <img src="projects/proj3.png" alt="Project 3 Screenshot">
+      <h3>Doctor Appointment App - Android (Kotlin)</h3>
+      <p><strong>Goal:</strong>Optimize medical appointment scheduling with an Android app, reducing wait times and improving healthcare access. <br>
+         <strong>Technologies:</strong> Kotlin, Android Studio, XML<br>
+         <strong>Challenges:</strong> Implementing an easy booking system with reliable data handling.<br>
+         <strong>Solution:</strong> Created an intuitive app with quick scheduling and secure appointment flow.
+      </p>
+      <a href="https://github.com/yourgithub/task-manager" target="_blank" class="btn">View Code</a>
+    </div>
+
+    <!-- Add more projects as needed -->
+
+  </div>
+</section>
+
+
+<!-- RESUME SECTION -->
+<section id="resume" class="section">
+  <h2>Resume</h2>
+  <p><a href="your-resume.pdf" class="btn" target="_blank">View My Resume</a></p>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+  <div class="contact-form-container">
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <input type="text" name="subject" placeholder="Subject" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer with Social Icons -->
+<footer>
+  <div class="social-icons">
+    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/chandanapriya-badina-827b97276/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+  <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+</footer>
+
+
+<!-- SCRIPT for Typing Animation -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  var typed = new Typed('.typing', {
+    strings: ["CHANDANA PRIYA BADINA"],
+    typeSpeed: 100,
+    backSpeed: 50,
+    loop: true
+  });
+</script>
+<!-- Bootstrap 5 JS CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
