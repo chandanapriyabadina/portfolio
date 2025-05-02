@@ -9,6 +9,7 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
+  
 </head>
 <body>
 
@@ -26,6 +27,9 @@
           <a class="nav-link" href="#home">Home</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
@@ -33,9 +37,6 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#projects">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#resume">Resume</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#contact">Contact</a>
@@ -56,6 +57,7 @@
       <h1>I AM <span class="typing"></span></h1>
       <p>Passionate Learner  Future Frontend & MERN Developer!</p>
       <div class="home-buttons">
+        <a href="#about" class="btn">About</a>
         <a href="#skills" class="btn">Skills</a>
         <a href="#certifications" class="btn">Certifications</a>
         <a href="#projects" class="btn">Projects</a>
@@ -63,6 +65,62 @@
         <a href="#contact" class="btn">Contact</a>
       </div>
     </div>
+  </div>
+</section>
+
+
+<!-- ABOUT SECTION -->
+ 
+<section id="about" class="about-section">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <p class="about-description">
+I’m a frontend developer passionate about crafting responsive, scalable, and user-friendly web applications. With expertise in React, HTML, CSS, and JavaScript, I focus on delivering seamless digital experiences that solve real-world problems in agriculture, healthcare, and civic engagement.
+While frontend development is my primary focus, I also have experience in mobile development, particularly Android (Kotlin), allowing me to create cross-platform solutions that enhance accessibility and usability. My goal is to leverage technology to build meaningful, intuitive applications that make a real impact.
+    </p>
+
+    <div class="skills-section">
+      <h3>Skills Highlights</h3>
+
+      <div class="skill">
+        <span>React</span>
+        <div class="skill-bar"><div class="skill-fill" style="width: 75%;">90%</div></div>
+      </div>
+
+      <div class="skill">
+        <span>Angular</span>
+        <div class="skill-bar"><div class="skill-fill" style="width: 80%;">85%</div></div>
+      </div>
+
+      <div class="skill">
+        <span>Android (Kotlin)</span>
+        <div class="skill-bar"><div class="skill-fill" style="width: 75%;">80%</div></div>
+      </div>
+
+      <div class="skill">
+        <span>Python</span>
+        <div class="skill-bar"><div class="skill-fill" style="width: 75%;">85%</div></div>
+      </div>
+
+      <div class="skill">
+        <span>HTML / CSS / JavaScript</span>
+        <div class="skill-bar"><div class="skill-fill" style="width: 95%;">90%</div></div>
+      </div>
+    </div>
+    
+    <h3 class="resume-title" id="resume">Resume</h3>
+    <p class="resume-description">Click the buttons below to view or download my resume.</p>
+  
+    <!-- Resume buttons side by side -->
+    <div class="resume-buttons">
+      <a href="resume.pdf" class="btn-view-resume">
+        <i class="fa fa-eye"></i> View Resume
+      </a>
+      <a href="resume.pdf" download class="btn-download-resume">
+        <i class="fa fa-download"></i> Download Resume
+      </a>
+    </div>
+    
   </div>
 </section>
 
@@ -110,9 +168,8 @@
   </div>
 </section>
 
-
 <!-- CERTIFICATIONS SECTION -->
-<section id="certifications" class="section certifications-section">
+ <section id="certifications" class="section certifications-section">
   <h2>Certifications</h2>
 
   <div class="certifications-grid">
@@ -122,7 +179,6 @@
       <p>Completed a frontend development course including HTML5, CSS, and JS.</p>
       <div class="cert-buttons">
         <a href="cert1.pdf" class="cert-btn">View Certificate</a>
-        
       </div>
     </div>
 
@@ -143,6 +199,34 @@
         <a href="cert3.pdf" class="cert-btn">View Certificate</a>
       </div>
     </div>
+
+    <div class="cert-card">
+      <img src="img4.png" alt="Certification 4">
+      <h3><i class="fas fa-award"></i> Hackerrank Python (Basic) </h3>
+      <p>Completed Hackerrank Python (Basic) Certification with 5 stars.</p>
+      <div class="cert-buttons">
+        <a href="cert4.pdf" class="cert-btn">View Certificate</a>
+      </div>
+    </div>
+
+    <div class="cert-card">
+      <img src="img5.png" alt="Certification 5">
+      <h3><i class="fas fa-award"></i> NPTEL - JOY OF COMPUTING USING PYTHON</h3>
+      <p>Completed the SWAYAM - NPTEL Certification of Joy of computing using python.</p>
+      <div class="cert-buttons">
+        <a href="cert5.pdf" class="cert-btn">View Certificate</a>
+      </div>
+    </div>
+
+    <div class="cert-card">
+      <img src="img6.png" alt="Certification 6">
+      <h3><i class="fas fa-award"></i> Hackerrank - JavaScript</h3>
+      <p>Completed Hackerrank JavaScript Certification.
+      </p>
+      <div class="cert-buttons">
+        <a href="cert6.pdf" class="cert-btn">View Certificate</a>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -153,8 +237,8 @@
   <h2 class="section-title">Projects</h2>
   
   <div class="projects-container">
-    
-    <div class="project-card">
+
+    <div class="project-card ">
       <img src="proj1.png" alt="Project 1 Screenshot">
       <h3>COMMUNITY PULSE PROJECT - REACT</h3>
       <p><strong>Goal:</strong>Centralize community issue reporting and feedback to improve public service efficiency.<br>
@@ -162,10 +246,10 @@
          <strong>Challenges:</strong> Designing an intuitive interface and handling real-time updates.<br>
          <strong>Solution:</strong> Built a responsive platform with and seamless feedback flow.
       </p>
-      <a href="https://github.com/yourgithub/portfolio" target="_blank" class="btn">View Code</a>
+      <a href="https://github.com/chandanapriyabadina/CommunityPulse-React" target="_blank" class="btn">View Code</a>
     </div>
 
-    <div class="project-card">
+    <div class="project-card ">
       <img src="proj2.png" alt="Project 2 Screenshot">
       <h3>Pesticides of Agriculture - Angular</h3>
       <p><strong>Goal:</strong> Suggest suitable pesticides based on crop and soil data for farmers.<br>
@@ -178,15 +262,15 @@
       <a href="https://github.com/chandanapriyabadina/portfolio" target="_blank" class="btn">View Code</a>
     </div>
 
-    <div class="project-card">
-      <img src="gitproj3.png" alt="Project 3 Screenshot">
+    <div class="project-card ">
+      <img src="proj3.png" alt="Project 3 Screenshot">
       <h3>Doctor Appointment App - Android (Kotlin)</h3>
       <p><strong>Goal:</strong>Optimize medical appointment scheduling with an Android app, reducing wait times and improving healthcare access. <br>
          <strong>Technologies:</strong> Kotlin, Android Studio, XML<br>
          <strong>Challenges:</strong> Implementing an easy booking system with reliable data handling.<br>
          <strong>Solution:</strong> Created an intuitive app with quick scheduling and secure appointment flow.
       </p>
-      <a href="https://github.com/yourgithub/task-manager" target="_blank" class="btn">View Code</a>
+      <a href="https://github.com/chandanapriyabadina/Doctor_Appointment_ANDROID" target="_blank" class="btn">View Code</a>
     </div>
 
     <!-- Add more projects as needed -->
@@ -194,38 +278,63 @@
   </div>
 </section>
 
-
-<!-- RESUME SECTION -->
-<section id="resume" class="section">
-  <h2>Resume</h2>
-  <p><a href="your-resume.pdf" class="btn" target="_blank">View My Resume</a></p>
-</section>
-
-<!-- Contact Section -->
+<!-- CONTACT PAGE SECTION -->
 <section id="contact" class="contact-section">
-  <div class="contact-form-container">
-    <h2>Contact Me</h2>
-    <form action="#" method="post">
-      <input type="text" name="name" placeholder="Full Name" required>
-      <input type="email" name="email" placeholder="Email Address" required>
-      <input type="text" name="subject" placeholder="Subject" required>
-      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-      <button type="submit" class="btn">Send</button>
-    </form>
+  <div class="container">
+    <h2 class="text-center">Get in Touch</h2>
+    <p class="text-center mb-4">Feel free to reach out through the form below or connect with me on social media.</p>
+
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <form action="#" method="post" class="p-4 bg-white rounded shadow-sm">
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" id="name" name="name" class="form-control" placeholder="Enter your full name" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" id="subject" name="subject" class="form-control" placeholder="Enter subject" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea id="message" name="message" rows="5" class="form-control" placeholder="Your message" required></textarea>
+          </div>
+
+          <button type="submit" class="btn w-100">Send Message</button>
+        </form>
+
+        <!-- Social Icons Below Form -->
+        <div class="text-center mt-4">
+          <p>Connect with me:</p>
+          <a href="https://www.facebook.com/" target="_blank" class="me-3 text-decoration-none text-dark fs-4">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.twitter.com/" target="_blank" class="me-3 text-decoration-none text-dark fs-4">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" class="me-3 text-decoration-none text-dark fs-4">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/chandanapriya-badina-827b97276/" target="_blank" class="text-decoration-none text-dark fs-4">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
-<!-- Footer with Social Icons -->
-<footer>
-  <div class="social-icons">
-    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
-    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-    <a href="https://www.linkedin.com/in/chandanapriya-badina-827b97276/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-  </div>
-  <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+<!-- FOOTER -->
+<footer class="mt-5 py-3 bg-dark text-white text-center">
+  <p class="mb-0">&copy; 2025 My Portfolio | Chandana Priya. All rights reserved.</p>
 </footer>
-
 
 <!-- SCRIPT for Typing Animation -->
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
